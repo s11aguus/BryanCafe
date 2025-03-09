@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bryan's Cafe menu</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--Navigation Section-->
+    <nav>
+        <a href="about.html"><img src="imagen/logo2.jpg" alt="Bryan's Café Logo"></a>
+        <ul class="center-nav">
+            <li><a href="about.html">About</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+     <!-- Main Section -->
+   <main>
+    <div class="menu-title framed-block">
+        <h1>OUR MENU</h1>
+    </div>
+
+        <div class="menu-title framed-block">
+            <h2>Food</h2>
+        </div>
+
+        <!-- Meals Section -->
+        <div class="menu-item framed-block">
+            <div class="menu-text">
+                <h3>[ Beetroot and Feta Salad - $15.00 ]</h3>
+                <p>     Suitable for vegetarians, made with fresh beetroot.</p>
+                <h3>[ Sourdough Rye Sandwich - $18.00  ]</h3>
+                <p>     Cheese and salad sandwich made with organic, sourdough rye bread.</p>
+                <h3>[ Spinach Pie and Salad - $20.00  ]</h3>
+                <p>     Tasty pie with salad.</p>
+                <h3>[ Feta pancakes with salad - $19.50  ]</h3>
+                <p>     Tasty pancake filled with feta and salad.</p>
+            </div>
+        </div>
+
+        <!-- Beverages Section -->
+        <div class="menu-title framed-block">
+            <h2>Coffees</h2>
+            <p>For coffee, please inform the staff of the coffee type. </p>
+        </div>
+
+        <div class="menu-item framed-block">
+            <div class="menu-text">
+                <h3>[ Small Coffee  $3.50 ]</h3>
+                <h3>[ Regular Coffee - $4.00 ]</h3>
+                <h3>[ Large Coffee - $4.50 ]</h3>
+            </div>
+        </div>
+
+        <!-- Other Beverages Section -->
+        <div class="menu-title framed-block">
+            <h2>Other Beverages</h2>
+        </div>
+
+        <div class="menu-item framed-block">
+            <div class="menu-text">
+                <h3>[ Soda - $3.00 ]</h3>
+                <h3>[ Fresh Juice - $6.00 ]</h3>
+                <h3>[ Bottled Water - $2.00 ]</h3>
+            </div>
+        </div>
+
+    </main>
+
+    <div class="clearfix"></div>
+
+    <footer>
+        <div class="footer-content">
+            © <span id="year"></span> Bryan's Café | <a href="privacy policy.html" target="_blank">Privacy Policy</a>
+        </div>
+    </footer>
+
+    <!-- Script para mostrar el año actual -->
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
